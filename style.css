@@ -1,0 +1,602 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Montserrat Alternates", sans-serif;
+  background-color: #3f3676;
+}
+.bg-img {
+  background-image: url(img/rectangle.png);
+  height: 536px;
+  background-repeat: no-repeat;
+  /* background-size: 100% 100%; */
+}
+.bg-primary-subtle {
+  background-color: #493973 !important;
+}
+.dropbtn {
+  color: #fff200;
+  padding: 8px;
+  font-size: 18px;
+  font-weight: 800;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 53px;
+  left: -176px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.prepared {
+  content: url(img/union.png);
+  position: relative;
+  width: 457px;
+  height: 94px;
+}
+.dropmt {
+  color: #fff200;
+  padding: 8px;
+  font-size: 18px;
+  font-weight: 800;
+  border: none;
+  background-color: transparent;
+}
+.dropdown-project {
+  display: none;
+  position: absolute;
+  top: 84px;
+  left: -90px;
+  z-index: 1;
+}
+.dropdown-project a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.drop {
+  position: relative;
+  display: inline-block;
+}
+.drop:hover .dropdown-project {
+  display: block;
+}
+.viewport {
+  position: relative;
+  bottom: 63px;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+.form-img {
+  content: url(img/union.svg);
+  position: relative;
+  width: 238px;
+  bottom: 30px;
+}
+.text-size {
+  position: relative;
+  bottom: 63px;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+.rel-position {
+  position: relative;
+  display: inline-block;
+}
+.fs-3 {
+  font-size: 18px !important;
+}
+.text-light-emphasis {
+  color: #d5d1ed !important;
+}
+.text-color {
+  background-color: #ad5da4 !important;
+  color: #ffffff;
+}
+.clip-path {
+  clip-path: polygon(
+    83% 6%,
+    88% 25%,
+    95% 49%,
+    85% 95%,
+    17% 94%,
+    6% 53%,
+    16% 4%
+  );
+}
+.nav-btn {
+  height: 40px;
+  width: 120px;
+}
+.wrappere{
+  position: relative;
+  left: 30%;
+  top: -14px;
+  display: inline-block;
+  background-color: #3e3576;
+  clip-path: polygon(50% 0%, 85% 15%, 100% 50%, 85% 85%, 50% 100%, 15% 85%, 0% 50%, 15% 15%);
+  width: 500px;
+  height: 500px;
+}
+.wrappere::before {
+  position: absolute;
+  left: -4px;
+  top: -71px;
+
+
+}
+.line {
+content: url(img/group.png);
+position: relative;
+bottom: 0px;
+right: 2px;
+}
+.charset {
+  content: url(./img/first-line.png);
+  position: relative;
+  left: 50px;
+  top: 47px;
+}
+.group {
+  content: url(img/second-line.png);
+  position: absolute;
+  top: 101px;
+  left: 102px;
+}
+.abbreviation {
+  content: url(img/third-line.png);
+  position: absolute;
+  top: 156px;
+  left: 156px;
+}
+.positioned {
+  content: url(img/fourd-line.png);
+  position: absolute;
+  top: 209px;
+  left: 208px;
+}
+.peace {
+  position: absolute;
+  left: 299px;
+  top: 42px;
+  rotate: 23deg;
+  display: inline-block;
+  font-weight: 700;
+  color: #d5d1ed;
+  font-size: 20px;
+  text-align: center;
+}
+.kindness {
+  position: absolute;
+  left: 398px;
+  top: 160px;
+  rotate: 67deg;
+  display: inline-block;
+  font-weight: 700;
+  color: #d5d1ed;
+  font-size: 20px;
+  text-align: center;
+}
+.kindnes {
+  position: absolute;
+  left: 401px;
+  bottom: 160px;
+  rotate: -69deg;
+  display: inline-block;
+  font-weight: 700;
+  color: #d5d1ed;
+  font-size: 20px;
+}
+.joy {
+  position: absolute;
+  left: 154px;
+  top: 40px;
+  rotate: -24deg;
+  display: inline-block;
+  font-weight: 700;
+  color: #d5d1ed;
+  font-size: 20px;
+  text-align: center;
+}
+.love {
+  position: absolute;
+  left: 38px;
+  top: 153px;
+  rotate: -67deg;
+  display: inline-block;
+  font-weight: 700;
+  color: #d5d1ed;
+  font-size: 20px;
+  text-align: center;
+}
+.left {
+  position: relative;
+  left: 41px;
+  bottom: 90px;
+  rotate: 68deg;
+  display: inline-block;
+  font-weight: 700;
+  color: #d5d1ed;
+  font-size: 20px;
+  text-align: center;
+}
+.tempor {
+  background-color: #d5d1ed;
+
+}
+.incididunt {
+  font-weight: 700;
+  font-size: 24px;
+  color: #8858b5;
+  padding-top: 25px;
+}
+.flexs {
+  align-items: center;
+  background-color: #8858b5;
+  display: flex;
+  position:relative;
+
+}
+.vector {
+  color: #fff200;
+  font-size: 40px !important;
+  font-weight: 900 !important;
+}
+.text {
+  color: #ffffff;
+  font-weight: 600 !important;
+}
+.cultivate {
+  position: relative;
+  top: 149px;
+}
+.design-container {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.strip {
+  position: absolute;
+  background: white;
+  height: 35px;
+  width: 13%;
+  clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 10% 100%, 0 50%);
+}
+.diamond {
+  width: 40px;
+  height: 40px;
+  background-color: #8858b5;
+  transform: rotate(45deg);
+  margin: 0 10px;
+}
+.diamonds {
+  width: 40px;
+  height: 40px;
+  background-color: #8858b5;
+  transform: rotate(45deg);
+  margin-right: 27px;
+  margin-left: 10px;
+}
+.group-card {
+  clip-path: polygon(
+    91% 2%,
+    109% 23%,
+    120% 63%,
+    90% 101%,
+    23% 118%,
+    -27% 53%,
+    7% 2%
+  );
+  margin-top: 200px;
+}
+.group-cards {
+  clip-path: polygon(
+    91% 2%,
+    109% 23%,
+    120% 63%,
+    90% 101%,
+    23% 118%,
+    -27% 53%,
+    7% 2%
+  );
+  margin-top: 200px;
+}
+.garden {
+  color: #000000;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 34px 50px 84px;
+}
+.narrowest {
+  align-items: center;
+  background-color: #8858b5;
+  display: flex;
+  clip-path: polygon(
+    83% 19%,
+    88% 45%,
+    91% 60%,
+    84% 101%,
+    21% 137%,
+    9% 61%,
+    16% 21%
+  );
+  width: 460px;
+  padding-top: 17px;
+  position: relative;
+  left: 102px;
+  top: -568px;
+}
+.union {
+  margin-right: 70px;
+  margin-left: 60px;
+}
+.vectors {
+  color: #fff200;
+  font-size: 32px !important;
+  font-weight: 900 !important;
+}
+.Petunia {
+  color: #ffffff;
+  font-size: 32px !important;
+  font-weight: 900 !important;
+}
+.text {
+  color: #ffffff;
+  font-weight: 600 !important;
+}
+.narrowests {
+  align-items: center;
+  background-color: #8858b5;
+  display: flex;
+  clip-path: polygon(
+    83% 19%,
+    88% 45%,
+    91% 60%,
+    84% 101%,
+    21% 137%,
+    9% 61%,
+    16% 21%
+  );
+  width: 391px;
+  padding-top: 17px;
+  position: relative;
+  left: 755px;
+  top: -631px;
+}
+.inherited {
+  position: relative;
+  display: inline-block;
+  left: 173px;
+  bottom: 164px;
+}
+.properties {
+  align-items: center;
+  display: flex;
+  position: relative;
+  width: 270px;
+  height: 60px;
+  padding-top: 14px;
+  left: 47px;
+}
+.provided {
+  position: relative;
+  display: inline-block;
+  left: 510px;
+  bottom: 164px;
+}
+.jackie {
+  color: #d5d1ed;
+  font-size: 20px;
+  font-weight: 800;
+  position: absolute;
+}
+.img {
+  position: relative;
+  bottom: 72px;
+}
+
+@media screen and (min-width: 325px) and (max-width: 500px) { 
+.wrappere {
+  left: 4%;
+  top: -14px;
+  clip-path: polygon(50% 0%, 85% 15%, 100% 50%, 85% 85%, 50% 100%, 15% 85%, 0% 50%, 15% 15%);
+  width: 400px;
+  height: 400px;
+}
+.union {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.funcation{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.strip {
+  height: 35px;
+  width: 40%;
+  clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 10% 100%, 0 50%);
+}
+.tempor {
+  padding-top: 63px;
+  padding-bottom: 26px;
+  padding-left: 19px;
+  padding-right: 9px;
+  clip-path: polygon(89% 19%, 90% 24%, 97% 58%, 88% 114%, 16% 156%, 0% 59%, 8% 19%);
+  position: absolute;
+  left: 12px;
+  bottom: 386px;
+  width: 417px;
+}
+.incididunt {
+  font-weight: 700;
+  font-size: 14px;
+  padding-top: 31px;
+}
+.inherited {
+  left: 57px;
+  bottom: 949px;
+}
+.narrowest {
+  clip-path: polygon(83% 19%, 88% 45%, 91% 60%, 84% 101%, 21% 137%, 9% 61%, 16% 21%);
+  width: 372px;
+  padding-top: 17px;
+  left: 25px;
+  top: -613px;
+}
+.narrowests {
+  clip-path: polygon(83% 19%, 88% 45%, 91% 60%, 84% 101%, 21% 137%, 9% 61%, 16% 21%);
+  width: 362px;
+  padding-top: 17px;
+  left: 34px;
+  top: -1449px;
+}
+.provided {
+  left: 56px;
+  bottom: 339px;
+}
+.line{
+  right: 1px;
+  width: 400px;
+
+}
+.flexs {
+  clip-path: polygon(83% 16%, 88% 45%, 90% 56%, 84% 102%, 16% 143%, 5% 55%, 11% 18%);
+  padding-bottom: 5px;
+  padding-top: 16px;
+  left: 66px;
+  position: relative;
+  bottom: 445px;
+  z-index: 1;
+  padding-right: 80px;
+  padding-left: 80px;
+  width: 311px;
+}
+.charset {
+  left: 49px;
+  top: -345px;
+  width: 300px;
+}
+.group {
+  top: 81px;
+  left: 81px;
+  width: 241px;
+}
+.abbreviation {
+  top: 114px;
+  left: 113px;
+  width: 178px;
+}
+.positioned {
+  top: 160px;
+  left: 158px;
+}
+.peace {
+  left: 230px;
+  top: 36px;
+  rotate: 23deg;
+  font-weight: 700;
+  font-size: 20px;
+}
+.kindness {
+  left: 302px;
+  top: 123px;
+  rotate: 67deg;
+  font-weight: 700;
+  font-size: 20px;
+}
+.kindnes {
+  left: 302px;
+  bottom: 127px;
+  rotate: -69deg;
+  font-weight: 700;
+  font-size: 20px;
+}
+.joy {
+  left: 121px;
+  top: 37px;
+  rotate: -24deg;
+  font-weight: 700;
+  font-size: 20px;
+}
+.love {
+  left: 28px;
+  top: 123px;
+  rotate: -67deg;
+  font-weight: 700;
+  font-size: 20px;
+}
+.left {
+  left: 29px;
+  bottom: 449px;
+  rotate: 68deg;
+  font-weight: 700;
+  font-size: 20px;
+}
+}
+
+@media screen and (min-width: 725px) and (max-width: 1300px) {
+
+.tempor {
+  clip-path: polygon(89% 19%, 90% 24%, 97% 58%, 88% 114%, 16% 156%, 0% 59%, 8% 19%);
+  padding-bottom: 48px;
+  padding-top: 123px;
+  padding-left: 50px;
+  padding-right: 50px;
+  position: absolute;
+  left: 233px;
+  top: 446px;
+  width: 802px;
+}
+.line {
+  position: absolute;
+}
+.line::before{
+  content: url(img/group.png);
+  position: relative;
+  bottom: 67px;
+  right: 0px;
+}
+.flexs {
+  align-items: center;
+  background-color: #8858b5;
+  display: flex;
+  position: relative;
+  clip-path: polygon(83% 16%, 88% 45%, 90% 56%, 84% 102%, 16% 143%, 5% 55%, 11% 18%);
+  padding-bottom: 22px;
+  padding-top: 40px;
+  left: 354px;
+  bottom: 141px;
+  z-index: 1;
+  padding-right: 80px;
+  padding-left: 80px;
+  width: 575px;
+}
+.group-card {
+  clip-path: polygon(91% 2%, 109% 23%, 120% 63%, 90% 101%, 23% 118%, -27% 53%, 7% 2%);
+  margin-top: 200px;
+  margin-right: 70px;
+}
+}
